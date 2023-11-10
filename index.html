@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Head or Tails</title>
+  </head>
+  <body>
+    <h1>Welcome to the Head or Tails Game</h1>
+    <p>Enter your name to start playing:</p>
+    <form id="nameForm">
+      <label for="userName">Enter your name: </label>
+      <input type="text" id="userName" required />
+      <button type="button" onclick="run()">Play Game</button>
+    </form>
+    <div id="resultImage" style="display: none">
+      <img id="resultImg" src="" alt="Result" />
+    </div>
+    <img id="mainImg" src="./1.gif" alt="main" />
+    <script src="scrpits.js"></script>
+  </body>
+</html>
